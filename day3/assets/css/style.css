@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 1px solid black; */
+}
+body {
+  font-family: "poppins", sans-serif;
+}
+/* navbar section start */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dbdbdb;
+  padding: 20px 5%;
+  border-bottom: 1px solid #000;
+}
+nav .left ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .left ul li {
+  margin-left: 50px;
+  list-style-type: none;
+}
+nav .left ul li a {
+  text-decoration: none;
+  color: #000;
+}
+nav .left ul li.active {
+  font-weight: bold;
+}
+/* navbar section button */
+nav .right a {
+  /*display: flex;*/
+  /* align-items: center; */
+  /* margin-right: 20px; */
+  background-color: #000;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+/* navbar section end */
+/* home section start */
+.home {
+  display: flex;
+  background-color: #fff;
+  box-shadow: -5px 0 30px gray;
+  width: 90%;
+  margin: 50px auto;
+  padding: 100px 40px;
+}
+.home .text {
+  padding-top: 20px;
+}
+.home .text p {
+  text-align: justify;
+  width: auto;
+}
+.home .btn {
+  padding-top: 35px;
+}
+.home .btn button {
+  background-color: #000;
+  color: #fff;
+  padding: 6px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.home .btn a {
+  text-decoration: none;
+  margin: 0 16px;
+  color: #000;
+}
+.home .links {
+  margin: 100px auto;
+  /* padding-left: 5rem; */
+}
+.home .links a {
+  margin-left: 40px;
+  font-size: 24px;
+  padding: 5px 10px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 25px;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+/* class right */
+.home .right {
+  margin-left: 48px;
+  width: 100%;
+  background-color: #eaeaea;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+.home .right img {
+  width: 100%;
+  /*padding: 5px 5px;
+  */
+}
+.home .right .content {
+  text-align: center;
+  /* padding: 5px 0; */
+}
+.home .right .content h1 {
+  font-weight: bold;
+  padding-top: 10px;
+  line-height: 30px;
+}
+.home .right .content p {
+  padding-top: 10px;
+}
+/* home section end */
+.info {
+  background-color: #eaeaea;
+  height: 100%;
+}
+.info h2 {
+  text-align: center;
+  padding-top: 40px;
+  font-weight: bold;
+}
+form {
+  width: 350px;
+
+  margin: 50px auto;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+label {
+  font-weight: bold;
+}
+form div {
+  margin-top: 10px;
+}
+
+form div button {
+  float: right;
+  background-color: black;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -ms-border-radius: 25px;
+  -o-border-radius: 25px;
+}
+.info form div label select .center {
+  text-align: center;
+}
