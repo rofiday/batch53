@@ -1,0 +1,90 @@
+<html>
+  <head>
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <html>
+      <head>
+        <title>Contact Form</title>
+        <!-- My Css -->
+        <link rel="stylesheet" href="./assets/css/style.css" />
+        <!-- fontsawesome -->
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,600&display=swap"
+          rel="stylesheet" />
+      </head>
+      <body>
+        <!-- navbar section start -->
+        <nav>
+          <div class="left">
+            <ul>
+              <img src="./assets/img/logo.png" alt="" />
+              <li class="active">
+                <a href="./index.html">Home</a>
+              </li>
+              <li>
+                <a href="./blog.html">My Project</a>
+              </li>
+            </ul>
+          </div>
+          <div class="right">
+            <a href="./contact-me.html">Contact Me</a>
+          </div>
+        </nav>
+        <!-- navbar section end -->
+        <div class="info">
+          <h2>GET IN TOUCH</h2>
+          <form action="">
+            <div>
+              <label>Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Type your name..." />
+            </div>
+            <div>
+              <label>Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Type your email.." />
+            </div>
+            <div>
+              <label>Phone Number</label>
+              <input
+                type="number"
+                name="phonenumber"
+                id="phonenumber"
+                placeholder="Type your number..." />
+            </div>
+            <div>
+              <label>Subject</label>
+              <select id="subject">
+                <option hidden>Select Options!</option>
+                <option>Frontend Developer</option>
+                <option>Backend Developer</option>
+                <option>Fullstack Developer</option>
+              </select>
+            </div>
+            <div>
+              <label>Massage</label>
+              <textarea name="" id="massage" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+              <button type="button" onclick="getData()">Submit</button>
+            </div>
+          </form>
+        </div>
+      </body>
+      <script src="./assets/js/script.js"></script>
+    </html>
+  </body>
+</html>

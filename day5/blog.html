@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | My Project</title>
+    <link rel="stylesheet" href="./assets/css/blog.css" />
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,600&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body>
+    <nav>
+      <div class="left">
+        <ul>
+          <li><img src="./assets/img/logo.png" alt="" /></li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="blog.html" class="active">My Project</a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <a href="contact-me.html">Contact Me</a>
+      </div>
+    </nav>
+
+    <!-- form blog -->
+    <div class="form-container">
+      <form onsubmit="addBlog(event)">
+        <h1>Create Post Blog</h1>
+        <div>
+          <label for="input-blog-title">Project Name</label>
+          <input id="projectname" />
+        </div>
+        <div class="date">
+          <div class="start-date">
+            <label for="input-blog-content">Start Date</label>
+            <input type="date" id="startdate" />
+          </div>
+          <div class="end-date">
+            <label for="">End Date</label>
+            <input type="date" id="enddate" />
+          </div>
+        </div>
+        <div>
+          <label for="">Description</label>
+          <textarea name="" id="description" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+          <label for="">Technologies</label>
+        </div>
+        <div class="tech">
+          <div id="techs">
+            <input type="checkbox" id="nodejs" />
+            <label for="">Node Js</label>
+
+            <input type="checkbox" id="expressjs" />
+            <label for="">Express Js</label>
+          </div>
+        </div>
+        <div class="tech">
+          <div id="techs">
+            <input type="checkbox" id="reactjs" />
+            <label for="">React Js</label>
+
+            <input type="checkbox" id="typescript" />
+            <label for="">TypeScript Js</label>
+          </div>
+        </div>
+
+        <div>
+          <label for="">Upload Image</label>
+          <div class="img">
+            <input type="file" name="" id="" />
+          </div>
+        </div>
+        <div>
+          <button>Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- form blog end -->
+
+    <!-- render card blog  start-->
+    <div id="test">
+      <h1>My Pojects</h1>
+    </div>
+    <hr />
+    <div id="content"></div>
+    <!-- render card blog  end-->
+    <script src="./assets/js/blog.js"></script>
+  </body>
+</html>
